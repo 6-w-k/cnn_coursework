@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "variants": [
+    "baseline",
+    "depthwise",
+    "se",
+    "gelu",
+    "mish"
+  ],
+  "epochs_each": 200,
+  "predictions_checked_each": 10000,
+  "same_split_verified": true,
+  "all_prediction_accuracies_and_confusion_matrices_match": true
+}

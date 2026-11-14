@@ -1,0 +1,66 @@
+{
+  "completed_experiments": 5,
+  "results": [
+    {
+      "variant": "baseline",
+      "parameters": 11173962,
+      "macs": 555422720,
+      "flops": 1110845440,
+      "epochs": 200,
+      "best_epoch": 194,
+      "validation_accuracy_pct": 95.64,
+      "test_accuracy_pct": 94.95,
+      "test_macro_f1": 0.9493751091921465,
+      "training_seconds": 2626.6129418974742
+    },
+    {
+      "variant": "depthwise",
+      "parameters": 1439626,
+      "macs": 73049088,
+      "flops": 146098176,
+      "epochs": 200,
+      "best_epoch": 177,
+      "validation_accuracy_pct": 95.1,
+      "test_accuracy_pct": 94.43,
+      "test_macro_f1": 0.9442548149536251,
+      "training_seconds": 2149.4067747127265
+    },
+    {
+      "variant": "se",
+      "parameters": 11263042,
+      "macs": 555509760,
+      "flops": 1111019520,
+      "epochs": 200,
+      "best_epoch": 189,
+      "validation_accuracy_pct": 95.78,
+      "test_accuracy_pct": 95.21,
+      "test_macro_f1": 0.9521561550489738,
+      "training_seconds": 2938.878450187389
+    },
+    {
+      "variant": "gelu",
+      "parameters": 11173962,
+      "macs": 555422720,
+      "flops": 1110845440,
+      "epochs": 200,
+      "best_epoch": 183,
+      "validation_accuracy_pct": 95.08,
+      "test_accuracy_pct": 94.49,
+      "test_macro_f1": 0.94497704678376,
+      "training_seconds": 2649.2844385819044
+    },
+    {
+      "variant": "mish",
+      "parameters": 11173962,
+      "macs": 555422720,
+      "flops": 1110845440,
+      "epochs": 200,
+      "best_epoch": 198,
+      "validation_accuracy_pct": 94.52,
+      "test_accuracy_pct": 93.76,
+      "test_macro_f1": 0.9374625817257698,
+      "training_seconds": 2697.3561578169465
+    }
+  ],
+  "limitations": "One seed. Training times were measured under concurrent four-GPU execution and are not isolated inference speed comparisons."
+}

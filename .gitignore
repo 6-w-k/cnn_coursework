@@ -1,0 +1,9 @@
+data/
+downloads/
+.venv/
+__pycache__/
+*.pyc
+.local/
+runs/
+checkpoints/
+logs/

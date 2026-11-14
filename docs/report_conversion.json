@@ -1,0 +1,25 @@
+{
+  "source_filename": "ResNet18结构改进与图像分类实验报告_目录修订版.docx",
+  "source_sha256": "443b5ca2fbe73dc8c648de9a62315bbd7ccff84be1085b24d86e4f3fde389708",
+  "images": 12,
+  "tables": 5,
+  "equations": 7,
+  "chapters": [
+    "1 实验任务与数据集",
+    "2 ResNet18基线结构",
+    "3 深度可分离卷积改进",
+    "4 SE注意力与激活函数对照",
+    "5 实验控制与训练配置",
+    "6 最终分类结果",
+    "7 训练过程与收敛分析",
+    "8 参数量与理论计算量分析",
+    "9 类别混淆分析",
+    "10 类别表现与失败样例",
+    "11 讨论与结论"
+  ],
+  "adaptations": [
+    "Web anchor contents replace Word page-number contents",
+    "0.52% accuracy decrease clarified as 0.52 percentage points",
+    "Dataset example caption generalized to avoid an incorrect split claim"
+  ]
+}

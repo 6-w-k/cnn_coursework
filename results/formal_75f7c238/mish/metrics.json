@@ -1,0 +1,253 @@
+{
+  "variant": "mish",
+  "seed": 42,
+  "epochs": 200,
+  "smoke": false,
+  "best_epoch": 198,
+  "best_validation_accuracy_pct": 94.52,
+  "best_validation_loss": 0.2194690715789795,
+  "training_split_size": 45000,
+  "validation_split_size": 5000,
+  "split_sha256": "4edb465003b6f248f3f14832501dec80d269476972fdcb60999bd8a72fe23843",
+  "total_training_samples_processed": 9000000,
+  "total_training_seconds": 2697.3561578169465,
+  "total_validation_seconds": 110.85634053894319,
+  "model_statistics": {
+    "parameters": 11173962,
+    "macs": 555422720,
+    "flops": 1110845440,
+    "input_shape": [
+      1,
+      3,
+      32,
+      32
+    ],
+    "convention": "Conv2d/Linear MACs only; FLOPs=2*MACs. Excludes BN, activations, pooling, bias and elementwise attention/residual operations."
+  },
+  "environment": {
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:16:10) [GCC 11.2.0]",
+    "torch": "2.6.0+cu124",
+    "cuda_build": "12.4",
+    "gpu": "NVIDIA A10",
+    "cuda_visible_devices": "1",
+    "split_sha256": "4edb465003b6f248f3f14832501dec80d269476972fdcb60999bd8a72fe23843",
+    "seed": 42,
+    "deterministic_algorithms": true,
+    "precision": "float32",
+    "classes": [
+      "airplane",
+      "automobile",
+      "bird",
+      "cat",
+      "deer",
+      "dog",
+      "frog",
+      "horse",
+      "ship",
+      "truck"
+    ]
+  },
+  "test_evaluated": true,
+  "test": {
+    "loss": 0.24284373388290406,
+    "accuracy_pct": 93.76,
+    "correct": 9376,
+    "samples": 10000,
+    "confusion_matrix": [
+      [
+        953,
+        1,
+        12,
+        6,
+        3,
+        0,
+        1,
+        0,
+        19,
+        5
+      ],
+      [
+        5,
+        970,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        3,
+        21
+      ],
+      [
+        17,
+        1,
+        915,
+        13,
+        19,
+        18,
+        8,
+        3,
+        5,
+        1
+      ],
+      [
+        8,
+        0,
+        15,
+        849,
+        14,
+        75,
+        18,
+        9,
+        8,
+        4
+      ],
+      [
+        4,
+        0,
+        5,
+        12,
+        956,
+        10,
+        3,
+        9,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        15,
+        53,
+        12,
+        898,
+        3,
+        15,
+        3,
+        0
+      ],
+      [
+        5,
+        1,
+        13,
+        9,
+        5,
+        2,
+        964,
+        1,
+        0,
+        0
+      ],
+      [
+        7,
+        0,
+        6,
+        8,
+        12,
+        15,
+        0,
+        946,
+        2,
+        4
+      ],
+      [
+        21,
+        9,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        961,
+        5
+      ],
+      [
+        8,
+        18,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        8,
+        964
+      ]
+    ],
+    "macro_f1": 0.9374625817257698,
+    "per_class": [
+      {
+        "class": "airplane",
+        "precision": 0.9270428015564203,
+        "recall": 0.953,
+        "f1": 0.9398422090729782,
+        "samples": 1000
+      },
+      {
+        "class": "automobile",
+        "precision": 0.9690309690309691,
+        "recall": 0.97,
+        "f1": 0.9695152423788106,
+        "samples": 1000
+      },
+      {
+        "class": "bird",
+        "precision": 0.930824008138352,
+        "recall": 0.915,
+        "f1": 0.9228441754916792,
+        "samples": 1000
+      },
+      {
+        "class": "cat",
+        "precision": 0.889937106918239,
+        "recall": 0.849,
+        "f1": 0.8689866939611054,
+        "samples": 1000
+      },
+      {
+        "class": "deer",
+        "precision": 0.9354207436399217,
+        "recall": 0.956,
+        "f1": 0.9455984174085064,
+        "samples": 1000
+      },
+      {
+        "class": "dog",
+        "precision": 0.8821218074656189,
+        "recall": 0.898,
+        "f1": 0.889990089197225,
+        "samples": 1000
+      },
+      {
+        "class": "frog",
+        "precision": 0.966900702106319,
+        "recall": 0.964,
+        "f1": 0.9654481722583875,
+        "samples": 1000
+      },
+      {
+        "class": "horse",
+        "precision": 0.9623601220752798,
+        "recall": 0.946,
+        "f1": 0.9541099344427634,
+        "samples": 1000
+      },
+      {
+        "class": "ship",
+        "precision": 0.9524281466798811,
+        "recall": 0.961,
+        "f1": 0.9566948730711796,
+        "samples": 1000
+      },
+      {
+        "class": "truck",
+        "precision": 0.9592039800995025,
+        "recall": 0.964,
+        "f1": 0.9615960099750623,
+        "samples": 1000
+      }
+    ]
+  },
+  "best_checkpoint_sha256": "0e60ddd2c405b7a12d33e14c8c388532bb3b3a45b6554185c08277b81f5bcb09"
+}

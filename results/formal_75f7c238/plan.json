@@ -1,0 +1,28 @@
+{
+  "variants": [
+    "baseline",
+    "depthwise",
+    "se",
+    "gelu",
+    "mish"
+  ],
+  "seed": 42,
+  "epochs": 200,
+  "batch_size": 128,
+  "workers": 2,
+  "cpu_threads": 2,
+  "learning_rate": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "precision": "float32",
+  "gpus": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "scheduling": "One training process per GPU; the fifth experiment starts on the first GPU to finish.",
+  "model_selection": "Best validation accuracy, then lowest validation loss; test once after training.",
+  "replications": 1,
+  "note": "Single-seed study; no across-seed uncertainty claims. All variants share the same fixed stratified split and training budget."
+}

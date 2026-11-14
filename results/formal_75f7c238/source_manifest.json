@@ -1,0 +1,7 @@
+{
+  "cnn/models.py": "bbe874ccb2df0ca6c0ab40563d2fed7f8f28d5dd812c40f0396daf0c35d094a9",
+  "cnn/data.py": "f72bc39dfd01916e137efb722b9d4d6bdf2b2d611892b09f578a2d56d84b07b6",
+  "cnn/__init__.py": "239f1b2dbe31711678183181dd1dbb666c21fc270b504a42a159b0e7482bb704",
+  "scripts/train.py": "a8832fc15b1f0e59cd8a9f5a095ccf5d001ae4022671d60a8a22b468b6ab5c63",
+  "experiments/plan.json": "f6651ea44e3af6b46f9fdbe100ef3a997238bc3e4b16b5894ef5ab1125060eb0"
+}

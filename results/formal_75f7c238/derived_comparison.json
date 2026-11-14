@@ -1,0 +1,32 @@
+{
+  "baseline": {
+    "test_accuracy_pct": 94.95,
+    "accuracy_change_percentage_points": 0.0,
+    "parameter_reduction_pct": 0.0,
+    "mac_reduction_pct": 0.0
+  },
+  "depthwise": {
+    "test_accuracy_pct": 94.43,
+    "accuracy_change_percentage_points": -0.519999999999996,
+    "parameter_reduction_pct": 87.11624399653408,
+    "mac_reduction_pct": 86.84801946884708
+  },
+  "se": {
+    "test_accuracy_pct": 95.21,
+    "accuracy_change_percentage_points": 0.2599999999999909,
+    "parameter_reduction_pct": -0.7972105149453679,
+    "mac_reduction_pct": -0.01567094698611271
+  },
+  "gelu": {
+    "test_accuracy_pct": 94.49,
+    "accuracy_change_percentage_points": -0.46000000000000796,
+    "parameter_reduction_pct": 0.0,
+    "mac_reduction_pct": 0.0
+  },
+  "mish": {
+    "test_accuracy_pct": 93.76,
+    "accuracy_change_percentage_points": -1.1899999999999977,
+    "parameter_reduction_pct": 0.0,
+    "mac_reduction_pct": 0.0
+  }
+}
